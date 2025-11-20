@@ -47,9 +47,15 @@ Traditional museums rely on static placards with limited information, lack indoo
 - Displays "Searching for nearby art..." when no beacons detected
 - Automatic content display when beacon found (no user interaction)
 
+![Beacon Scanning](../MuseumArtGuide_beacon_scanning.jpg)
+*Figure 1: MuseumArtGuide app actively scanning for nearby beacons*
+
 **Current Content:**
 - Information about **Shrimant Maharaja Madhav Rao Scindia**
 - Historical context about the Scindia dynasty and gallery collection
+
+![Beacon Detected](../MuseumArtGuide_beacon_detected.jpg)
+*Figure 2: Content displayed when beacon is detected - Shrimant Maharaja Madhav Rao Scindia exhibit information*
 
 **Stability Features:**
 - 10-scan grace period (~11 seconds) prevents content flickering
@@ -74,6 +80,9 @@ UUID:  2f234454-cf6d-4a0f-adf2-f4911ba9ffa6
 Major: 1
 Minor: 1
 ```
+
+![BeaconSimulator App](../BeaconSimulator.jpg)
+*Figure 3: BeaconSimulator app interface with configurable UUID, Major, and Minor values*
 
 ## 4. Key Technical Details
 
@@ -243,6 +252,8 @@ implementation("org.altbeacon:android-beacon-library:2.20.6")
 
 **Document Info:**
 - **Project**: MuseumArtGuide
-- **Author**: Prabhat Kumar
+- **Author**: Prabhat Kumar , Vikash Kumar , Priyanshu Chauhan
 - **Date**: November 2025
 - **Version**: 1.0
+
+
