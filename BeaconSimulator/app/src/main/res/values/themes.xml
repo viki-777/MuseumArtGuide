@@ -1,0 +1,12 @@
+<!-- FILE: BeaconSimulator/app/src/main/res/values/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+      Base application theme. The parent theme is changed to Theme.AppCompat.Light.DarkActionBar
+      to resolve the runtime crash.
+    -->
+    <style name="Theme.BeaconSimulator" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- You can customize your theme here if you want -->
+        <!-- For example: -->
+        <!-- <item name="colorPrimary">@color/purple_500</item> -->
+    </style>
+</resources>
